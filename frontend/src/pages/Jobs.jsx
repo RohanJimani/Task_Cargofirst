@@ -105,9 +105,9 @@ const Jobs = () => {
             <div className="empty-card">
               <Briefcase className="empty-icon" />
               <p>No jobs posted yet</p>
-              <button onClick={() => (window.location.href = "/dash")}>
+              {/* <button onClick={() => (window.location.href = "/dash")}>
                 Post Your First Job
-              </button>
+              </button> */}
             </div>
           ) : (
             <div className="jobs-grid">
