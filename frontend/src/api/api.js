@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // change this to your backend URL
+  baseURL: "https://task-cargofirst-2.onrender.com", // change this to your backend URL
 });
 
 // Attach token automatically to every request
