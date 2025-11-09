@@ -55,33 +55,33 @@ It allows users to securely manage jobs/tasks by creating, viewing, and deleting
 ---
 ##  Install backend dependencies
 
-cd backend
-npm install
+- cd backend
+- npm install
 
 ---
 ## Install frontend dependencies
 
-cd ../frontend
-npm install
+- cd ../frontend
+- npm install
 
 ---
 ## Create .env file in backend folder
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- PORT=5000
 
 ---
 
 ## Run the project locally
 
 **Backend**
-cd backend
-npm run dev
+- cd backend
+- npm run dev
 
 **Frontend**
-cd frontend
-npm start
+- cd frontend
+- npm start
 
 
 
