@@ -10,7 +10,7 @@ const app = express();
 
 // ✅ Configure CORS properly for both local and deployed frontend
 const allowedOrigins = [
-  "https://task-cargofirst-15.onrender.com", // your frontend (Render or Vercel)
+  "https://task-cargofirst-20.onrender.com", // your frontend (Render or Vercel)
   "http://localhost:3000",                  // local development
 ];
 
