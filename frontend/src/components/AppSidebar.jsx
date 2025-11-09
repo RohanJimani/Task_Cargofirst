@@ -23,7 +23,7 @@ export function AppSidebar() {
     alert("Logged out successfully!");
 
     // ✅ Client-side navigation (no backend call)
-    navigate("/auth");
+    navigate("/");
   };
 
   return (
